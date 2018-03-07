@@ -1,4 +1,4 @@
-(defproject test-parent "3.0.0-SNAPSHOT"
+(defproject test-parent "3.0.0"
   :description ""
   :url ""
   :license {}
