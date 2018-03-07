@@ -4,7 +4,8 @@
   :license {}
   :dependencies [[org.clojure/clojure "_"]]
   :plugins [[lein-modules "0.3.11"]]
-  :modules {:inherited
+  :modules {:subprocess nil
+            :inherited
             {:url "Something"
              :license {}}
             :versions
