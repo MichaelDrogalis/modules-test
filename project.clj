@@ -4,11 +4,9 @@
   :license {}
   :dependencies [[org.clojure/clojure "_"]]
   :plugins [[lein-modules "0.3.11"]]
-  :subprocess nil
   :modules {:inherited
             {:url "Something"
-             :license {}
-             :subprocess nil}
+             :license {}}
             :versions
             {org.clojure/clojure "1.9.0"
              org.apache.kafka "0.11.0.1"}}
